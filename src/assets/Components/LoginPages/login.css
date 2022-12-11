@@ -1,0 +1,112 @@
+#login{
+    display: flex;
+}
+
+.login_section{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+    padding: clamp(35px, 8%, 70px);
+}
+
+.wrapper{
+    padding: 1rem 0;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Imagem */
+.logo-img{
+    width: 130px;
+}
+
+/* estilo do formulário */
+#login form{
+    width: 100%;
+    max-width: 480px;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+#login .field{
+    margin-top: 1rem;
+}
+
+#login .field label{
+    margin-bottom: .5rem;
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+#login .field input{
+    width: 100%;
+    background-color: var(--grey);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-size: 0.9em;
+    padding: 15px 10px 10px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.actions{
+    margin-top: 2rem;
+}
+
+.login-btn{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--light-text-color);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: var(--text-color);
+}
+/* wrapper links */
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.login-link{
+    color: var(--light-text-color);
+    font-size: .6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.login-link:hover{
+    color: var(--text-color);
+}
+
+
+/* Wallpaper section */
+
+.wallpaper{
+    width: 100%;
+    background-image: url("../../Images/Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
